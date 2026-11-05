@@ -1,5 +1,3 @@
-CREATE DATABASE IF NOT EXISTS reservation_plateforme;
-USE reservation_plateforme;
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
